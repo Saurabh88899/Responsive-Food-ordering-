@@ -1,0 +1,218 @@
+/* navbar */
+#nav{
+  left: 2px;
+}
+#nav ul{
+  
+  flex-wrap:wrap;
+}
+.ul-img{
+  
+  
+  flex-wrap:wrap;
+}
+#nav ul li{
+  padding: 3px;
+}
+#nav ul li img{
+  height: 79px;
+  width: 79px;
+  border:2px solid white;
+}
+#nav ul li a{
+  font-size: 15px;
+  padding: 5px ;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 75px;
+}
+/* info */
+
+.sec1{
+  height: 600px;
+}
+ .sec1-h1{
+  font-size: 1.9rem;
+}
+.sec1-p{
+  font-size: 1.4rem;
+  padding: 0 18%;
+}
+.sec1-but{
+  font-size: 1.2rem;
+  padding: 3px 8px;
+  border: 2px solid white;
+  border-radius: 23px;
+}
+
+/* services section */
+
+.heading{
+  margin-block: 20px;
+  font-size: 45px;
+}
+.sec2-maindiv{
+  margin:1%;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec2-info{
+  padding: 8px 30px;
+  max-width: 95%;
+  border-radius: 28px;
+  margin-bottom: 25px;
+}
+.sec2-info h1{
+  font-size: 2rem;
+}
+.sec2-info img{
+  height: 100px;
+  width:100px;
+}
+.sec2-info p{
+  font-size: 2rem;
+}
+.sec3{
+  height: 300px;
+}
+.sec3-img{
+  flex-wrap: wrap;
+}
+.sec3-img img{
+  height:120px;
+  width: 120px;
+}
+
+
+
+
+.sec4{
+  height: 720px;
+}
+footer label{
+  
+  font-size: 2rem;
+}
+footer input{
+  
+  width: 60%;
+  height:39px ;
+  font-size: 1.5rem;
+}
+#message{
+  height: 150px;
+}
+#submit{
+  margin: 2% 20%;
+  width: 120px;
+  border-radius: 23px;
+  font-size: 2rem;
+  
+}
+.right b{
+  font-size: 1.5rem;
+}
+.so{
+  font-size: 2rem;
+}
+
+
+
+
+@media screen and (max-width:550px){
+  .sec1{
+  height: 500px;
+}
+#nav{
+  left: 1px;
+  margin: 0;
+}
+  .ul-img{
+  display:none;
+}
+.ul-li{
+  position: absolute;
+  left:2px;
+}
+#nav ul li a{
+  font-size: 10px;
+  padding: 1px ;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 65px;
+}
+#heading{
+  font-size: 1rem;
+}
+ .sec1-h1{
+  font-size: 1.4rem;
+}
+.sec1-p{
+  font-size: 1rem;
+  padding: 0 10%;
+}
+.sec1-but{
+  font-size: 1rem;
+}
+.sec2-maindiv{
+  margin:0.5%;
+  padding: 20px;
+}
+.sec2-info{
+  padding: 8px 30px;
+  max-width: 95%;
+  border-radius: 28px;
+  margin-bottom: 25px;
+}
+.sec2-info h1{
+  font-size: 1.5rem;
+}
+.sec2-info img{
+  height: 100px;
+  width:100px;
+}
+.sec2-info p{
+  font-size: 1rem;
+}
+.sec3{
+  height: 300px;
+}
+.sec3-img img{
+  height:80px;
+  width: 80px;
+  padding: 15px;
+}
+.sec4{
+  height: 720px;
+}
+footer label{
+  
+  font-size: 1.4rem;
+}
+footer input{
+  
+  width: 60%;
+  height:39px ;
+  font-size: 1rem;
+}
+#message{
+  height: 100px;
+}
+#submit{
+  margin: 2% 20%;
+  width: 120px;
+  border-radius: 23px;
+  font-size: 1.5rem;
+  
+}
+.right b{
+  font-size: 1rem;
+}
+.so{
+  font-size: 1.4rem;
+}
+.sec4{
+  height: 520px;
+}
+}
